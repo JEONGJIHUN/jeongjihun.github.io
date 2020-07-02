@@ -3,7 +3,7 @@ title: AST란 무엇일까요?
 date: "2020-06-18"
 template: "post"
 draft: false
-slug: "What-is-the-AST?"
+slug: "What-is-the-AST"
 category: "Javascript"
 tags:
   - "AST"
