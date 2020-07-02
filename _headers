@@ -106,6 +106,18 @@
   Link: </component---src-templates-not-found-template-js-016fd5adafb106b9732a.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/What-is-the-AST
+  Link: </webpack-runtime-b7ab75f54f37b3097817.js>; rel=preload; as=script
+  Link: </styles-083a06cb5740baaf347d.js>; rel=preload; as=script
+  Link: </framework-99bce8781449cc5246e6.js>; rel=preload; as=script
+  Link: </532a2f07-1d2a7bbc1a68ccd5edd4.js>; rel=preload; as=script
+  Link: </app-5e58fe50cb8cf02a3a75.js>; rel=preload; as=script
+  Link: </styles-083a06cb5740baaf347d.js>; rel=preload; as=script
+  Link: </9f51d0540ff428d377f06ef4930cdc7caed260db-d4f0373bb32477734e0f.js>; rel=preload; as=script
+  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-4deb2450f60e37cf9a36.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-ba4031c7f337e7de1390.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/What-is-the-AST/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/Light house
   Link: </webpack-runtime-b7ab75f54f37b3097817.js>; rel=preload; as=script
   Link: </styles-083a06cb5740baaf347d.js>; rel=preload; as=script
@@ -118,18 +130,6 @@
   Link: </component---src-templates-post-template-js-ba4031c7f337e7de1390.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/Light house/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/What-is-the-AST?
-  Link: </webpack-runtime-b7ab75f54f37b3097817.js>; rel=preload; as=script
-  Link: </styles-083a06cb5740baaf347d.js>; rel=preload; as=script
-  Link: </framework-99bce8781449cc5246e6.js>; rel=preload; as=script
-  Link: </532a2f07-1d2a7bbc1a68ccd5edd4.js>; rel=preload; as=script
-  Link: </app-5e58fe50cb8cf02a3a75.js>; rel=preload; as=script
-  Link: </styles-083a06cb5740baaf347d.js>; rel=preload; as=script
-  Link: </9f51d0540ff428d377f06ef4930cdc7caed260db-d4f0373bb32477734e0f.js>; rel=preload; as=script
-  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-4deb2450f60e37cf9a36.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-ba4031c7f337e7de1390.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/What-is-the-AST?/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/JavaScript-Naming-Convention-Best-Practices
   Link: </webpack-runtime-b7ab75f54f37b3097817.js>; rel=preload; as=script
   Link: </styles-083a06cb5740baaf347d.js>; rel=preload; as=script
