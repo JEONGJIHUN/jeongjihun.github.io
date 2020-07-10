@@ -3,14 +3,14 @@
 <url> <loc>https://jeongjihun.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/Accessibility</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeongjihun.github.io/posts/Typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeongjihun.github.io/posts/Light house</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeongjihun.github.io/posts/TIL</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/What-is-the-AST</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/posts/Light house</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/posts/Typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/JavaScript-Naming-Convention-Best-Practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/posts/TIL</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeongjihun.github.io/posts/Javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/Causes-of-Memory-Leaks-in-JavaScript-and-How-to-Avoid-Them</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/posts/Javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/ast</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/best-practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/chrome</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -38,6 +38,7 @@
 <url> <loc>https://jeongjihun.github.io/tag/interface</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/type</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/category/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/category/javascript/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/category/til</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/category/typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/category/web</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
