@@ -9,7 +9,7 @@ tags:
   - "Javascript"
   - "Promise"
   - "Async/await"
-description: "WCAG 는 Web Content Accessibility Guildlines로 접근성 높은 웹 사이트를 만들기 위한 네 가지 원칙으로 구성된 13가지 지침으로 이루어져 있고, 각 지침에는 테스트 가능한 성공 기준을 제공한다. 각 성공 기준은 서로 다른 상황의 요구를 충족시키기 위해 페이지 디자인이나 시각적 표현에 미친 영향을 기반으로 3가지 적합성 수준(A, AA, AAA)으로 분류한다."
+description: "자바스크립트에 대한 간략한 설명과 callback 에 대해 설명.그 후, Promise 와 Async/await 에 대해 알아보려고 합니다."
 socialImage: ""
 ---
 
