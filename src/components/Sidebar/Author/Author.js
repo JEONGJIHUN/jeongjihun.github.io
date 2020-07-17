@@ -1,40 +1,93 @@
 // @flow strict
-import React from 'react';
-import { withPrefix, Link } from 'gatsby';
-import styles from './Author.module.scss';
+import React, { useRef } from "react";
+import { withPrefix, Link } from "gatsby";
+import styles from "./Author.module.scss";
+import image from "./IMG_2712.jpg";
 
 type Props = {
   author: {
     name: string,
     bio: string,
-    photo: string
+    photo: string,
   },
-  isIndex: ?boolean
+  isIndex: ?boolean,
 };
 
-const Author = ({ author, isIndex }: Props) => (
-  <div className={styles['author']}>
-    <Link to="/">
-      <img
-        src={withPrefix(author.photo)}
-        className={styles['author__photo']}
-        width="75"
-        height="75"
-        alt={author.name}
-      />
-    </Link>
+const Author = ({ author, isIndex }: Props) => {
+  const linkImage = useRef(null);
+  const linkText = useRef(null);
 
-    { isIndex === true ? (
-      <h1 className={styles['author__title']}>
-        <Link className={styles['author__title-link']} to="/">{author.name}</Link>
+  const onMouseMove = (e) => {
+    let x = e.clientX;
+    let y = e.clientY;
+    let width = window.innerWidth;
+    let resolvedPos = [];
+    if (width <= 686) {
+      resolvedPos[0] = x - 20;
+      resolvedPos[1] = y - 160;
+    } else {
+      resolvedPos[0] = x - 40;
+      resolvedPos[1] = y - 180;
+    }
+    linkImage.current.style.transform = `translate3d(${resolvedPos[0]}px, ${resolvedPos[1]}px, 0)`;
+    linkText.current.style.setProperty("--x", resolvedPos[0] + "px");
+    linkText.current.style.setProperty("--y", resolvedPos[1] + "px");
+  };
+
+  return (
+    <div className={styles["author"]}>
+      <Link to="/">
+        <img
+          src={withPrefix(author.photo)}
+          className={styles["author__photo"]}
+          width="75"
+          height="75"
+          alt={author.name}
+        />
+      </Link>
+
+      {/* {isIndex ? ( */}
+      <h1 className={styles["author__title"]}>
+        <Link className={styles["author__title-link"]} to="/">
+          {author.name}
+        </Link>
       </h1>
-    ) : (
-      <h2 className={styles['author__title']}>
-        <Link className={styles['author__title-link']} to="/">{author.name}</Link>
-      </h2>
-    )}
-    <p className={styles['author__subtitle']}>{author.bio}</p>
-  </div>
-);
+      {/* ) : (
+        <h2 className={styles["author__title"]}>
+          <Link className={styles["author__title-link"]} to="/">
+            {author.name}
+          </Link>
+        </h2>
+      )} */}
+      <p className={styles["author__container"]}>
+        <a
+          className={styles["author__link"]}
+          onMouseMove={onMouseMove}
+          href="#"
+        >
+          {author.bio}
+        </a>
+        <span className="hover-container">
+          <span
+            ref={linkText}
+            className={styles["author__link-text"]}
+            aria-hidden="true"
+          >
+            {author.bio}
+          </span>
+          <span className={styles["author__image-container"]}>
+            <span ref={linkImage} className={styles["author__image-inner"]}>
+              <img
+                className={styles["author__image-link"]}
+                src={image}
+                alt="photo"
+              />
+            </span>
+          </span>
+        </span>
+      </p>
+    </div>
+  );
+};
 
 export default Author;

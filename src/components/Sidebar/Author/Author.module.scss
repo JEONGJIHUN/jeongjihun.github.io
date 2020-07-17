@@ -1,36 +1,107 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
 
 .author {
+  &__container {
+    width: 100%;
+    position: relative;
+    font-size: $typographic-base-font-size * 1.125;
+    font-weight: 600;
+    @include line-height(1.125);
+    @include margin(0.5, 0, 0.5, 0);
+  }
+
+  &__link {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    font-size: $typographic-base-font-size * 1.125;
+    color: #333;
+    text-transform: uppercase;
+    transition: color 275ms ease;
+    &:hover {
+      color: #333;
+      & ~ span {
+        .author__link-text {
+          opacity: 1;
+        }
+        .author__image-container {
+          opacity: 1;
+        }
+      }
+    }
+
+    &-text {
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: $typographic-base-font-size * 1.125;
+      color: #fff;
+      text-transform: uppercase;
+      pointer-events: none;
+      clip-path: circle(25px at var(--x) var(--y));
+      opacity: 0;
+      transition: opacity 250ms ease;
+    }
+  }
+
+  &__image {
+    &-container {
+      z-index: -2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      opacity: 0;
+      transition: opacity 250ms ease;
+    }
+    &-inner {
+      position: absolute;
+      top: -25px;
+      left: -25px;
+      width: 50px;
+      height: 50px;
+    }
+    &-link {
+      display: block;
+      max-width: 100%;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%;
+      filter: brightness(0.9);
+    }
+  }
+
   &__photo {
     display: inline-block;
     margin-bottom: 0;
     border-radius: 50%;
-    background-clip: padding-box
+    background-clip: padding-box;
   }
 
   &__title {
     font-size: $typographic-base-font-size * 1.125;
     font-weight: 600;
     @include line-height(1.125);
-    @include margin(.5, 0, .5, 0);
+    @include margin(0.5, 0, 0.5, 0);
 
     &-link {
       color: $color-base;
 
       &:hover,
       &:focus {
-        color: $color-base
+        color: $color-base;
       }
-
     }
-
   }
 
   &__subtitle {
     color: $color-gray;
     @include line-height(1);
-    @include margin-bottom(1)
+    @include margin-bottom(1);
   }
-
 }
