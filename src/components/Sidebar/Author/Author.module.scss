@@ -15,12 +15,13 @@
     z-index: 1;
     position: relative;
     display: inline-block;
-    font-size: $typographic-base-font-size * 1.125;
-    color: #333;
+    font-size: $typographic-base-font-size;
+    color: #b6b6b6;
     text-transform: uppercase;
     transition: color 275ms ease;
+    @include line-height(1);
     &:hover {
-      color: #333;
+      color: #b6b6b6;
       & ~ span {
         .author__link-text {
           opacity: 1;
@@ -36,13 +37,14 @@
       position: absolute;
       top: 0;
       left: 0;
-      font-size: $typographic-base-font-size * 1.125;
-      color: #fff;
+      font-size: $typographic-base-font-size;
+      color: #f7a046;
       text-transform: uppercase;
       pointer-events: none;
       clip-path: circle(25px at var(--x) var(--y));
       opacity: 0;
       transition: opacity 250ms ease;
+      @include line-height(1);
     }
   }
 
