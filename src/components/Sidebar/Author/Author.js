@@ -18,20 +18,12 @@ const Author = ({ author, isIndex }: Props) => {
   const linkText = useRef(null);
 
   const onMouseMove = (e) => {
-    let x = e.clientX;
-    let y = e.clientY;
-    let width = window.innerWidth;
-    let resolvedPos = [];
-    if (width <= 686) {
-      resolvedPos[0] = x - 20;
-      resolvedPos[1] = y - 160;
-    } else {
-      resolvedPos[0] = x - 40;
-      resolvedPos[1] = y - 180;
-    }
-    linkImage.current.style.transform = `translate3d(${resolvedPos[0]}px, ${resolvedPos[1]}px, 0)`;
-    linkText.current.style.setProperty("--x", resolvedPos[0] + "px");
-    linkText.current.style.setProperty("--y", resolvedPos[1] + "px");
+    const { left, top } = linkText.current.getBoundingClientRect();
+    let x = e.clientX - left;
+    let y = e.clientY - top;
+    linkImage.current.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+    linkText.current.style.setProperty("--x", `${x}px`);
+    linkText.current.style.setProperty("--y", `${y}px`);
   };
 
   return (
