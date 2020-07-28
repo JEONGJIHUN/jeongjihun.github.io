@@ -1,0 +1,8 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
+
+svg path {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  fill-opacity: 0;
+}

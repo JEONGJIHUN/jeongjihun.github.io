@@ -1,6 +1,7 @@
 // @flow strict
 import React, { useRef } from "react";
 import { withPrefix, Link } from "gatsby";
+import Logo from "./Logo";
 import styles from "./Author.module.scss";
 import image from "./IMG_2712.jpg";
 
@@ -38,19 +39,12 @@ const Author = ({ author, isIndex }: Props) => {
         />
       </Link>
 
-      {/* {isIndex ? ( */}
-      <h1 className={styles["author__title"]}>
+      <div className={styles["author__title"]}>
         <Link className={styles["author__title-link"]} to="/">
-          {author.name}
+          <Logo />
         </Link>
-      </h1>
-      {/* ) : (
-        <h2 className={styles["author__title"]}>
-          <Link className={styles["author__title-link"]} to="/">
-            {author.name}
-          </Link>
-        </h2>
-      )} */}
+      </div>
+
       <p className={styles["author__container"]}>
         <a
           className={styles["author__link"]}
