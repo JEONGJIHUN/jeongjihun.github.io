@@ -9,11 +9,12 @@ gsap.registerPlugin(CSSPlugin);
 const Logo: FC = () => {
   useEffect(() => {
     const tl = gsap.timeline();
-    tl.to("#name path", 0.5, {
-      strokeDashoffset: 0,
-      "fill-opacity": 1,
-    });
-    tl.fromTo("#name path", 0.5, { x: 40 }, { x: -55 });
+    tl.fromTo(
+      "#name path",
+      1,
+      { "fill-opacity": 0, x: 40 },
+      { "fill-opacity": 1, x: -55 }
+    );
   }, []);
 
   return (
