@@ -1,7 +1,10 @@
 // @flow strict
 import React, { FC, useEffect } from "react";
-import { TimelineMax } from "gsap";
+import { TimelineMax, gsap } from "gsap";
+import { CSSPlugin } from "gsap/CSSPlugin";
 import styles from "./Logo.module.scss";
+
+gsap.registerPlugin(CSSPlugin);
 
 const Logo: FC = () => {
   useEffect(() => {
