@@ -2,17 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://jeongjihun.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/posts/Generator &amp; RxJS</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/posts/Promise &amp; Async/await</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/Accessibility</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/posts/strategy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/What-is-the-AST</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/posts/Causes-of-Memory-Leaks-in-JavaScript-and-How-to-Avoid-Them</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/Light house</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/JavaScript-Naming-Convention-Best-Practices</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/posts/setup-https-with-cra</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/Typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/TIL</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeongjihun.github.io/posts/Generator &amp; RxJS</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeongjihun.github.io/posts/strategy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeongjihun.github.io/posts/Promise &amp; Async/await</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeongjihun.github.io/posts/Causes-of-Memory-Leaks-in-JavaScript-and-How-to-Avoid-Them</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/posts/Javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/ast</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/async-await</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -23,9 +24,11 @@
 <url> <loc>https://jeongjihun.github.io/tag/generator</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/google</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/graceful-degradation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/tag/https</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/jam-stack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/javascript/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/tag/javascript/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/lighthouse</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/management</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/memory</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -34,8 +37,10 @@
 <url> <loc>https://jeongjihun.github.io/tag/progressive-enhancement</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/promise</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/prototype</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/tag/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/rx-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/rxjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/tag/ssl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/til</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/tag/v-8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -50,6 +55,7 @@
 <url> <loc>https://jeongjihun.github.io/tag/점진적-향상법</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/category/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/category/javascript/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeongjihun.github.io/category/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/category/strategy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/category/til</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeongjihun.github.io/category/typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
