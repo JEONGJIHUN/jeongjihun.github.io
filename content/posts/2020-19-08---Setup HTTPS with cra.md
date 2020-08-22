@@ -45,7 +45,7 @@ mkdir -p .cert
 mkcert -key-file ./.cert/cert.key -cert-file ./.cert/cert.crt "localhost"
 ```
 
-**`생성된 인증서를 가지고 있는 .cert 파일은 .gitignore 에 포함시켜야 합니다.`**
+**`생성된 인증서를 가지고 있는 .cert파일은 .gitignore에 포함시켜야 합니다.`**
 
 마지막으로 `package.json`에 scripts를 수정합니다. 그리고 스크립트를 실행시켜 아래 이미지와 같이 HTTPS가 적용된 것을 확인할 수 있습니다.
 
