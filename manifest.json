@@ -1,7 +1,6 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
-  "static/IMG_2712.jpg": "static/IMG_2712-85b474c2d4b60d92a48ba06e30cf9ca0.jpg",
   "static/KaTeX_AMS-Regular.ttf": "static/KaTeX_AMS-Regular-aaf4eee9fba9907d61c3935e0b6a54ae.ttf",
   "static/KaTeX_AMS-Regular.woff": "static/KaTeX_AMS-Regular-7f06b4e30317f784d61d26686aed0ab2.woff",
   "static/KaTeX_AMS-Regular.woff2": "static/KaTeX_AMS-Regular-e78e28b4834954df047e4925e9dbf354.woff2",
