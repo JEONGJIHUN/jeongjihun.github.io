@@ -8,9 +8,9 @@ category: "lint"
 tags:
   - "commit-lint"
   - "husky"
-  - "link-staged
+  - "link-staged"
 description: "eslint, prettier 와 함께 lint-staged, commit lint 적용법에 대해 간단히 작성해보려한다."
-socialImage: ""
+socialImage: ""ß
 ---
 
 eslint, prettier 와 함께 lint-staged, commit lint 적용법에 대해 간단히 작성해보려한다. 
