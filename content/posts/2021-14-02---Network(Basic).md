@@ -4,7 +4,7 @@ date: "2021-02-14"
 template: "post"
 draft: false
 slug: "network"
-category: "lint"
+category: "network"
 tags:
   - "network"
   - "port"
